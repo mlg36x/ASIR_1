@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <audio
+      src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Himno_a_Galicia.ogg"
+      controls
+    ></audio>
+    <!--<video width="300" height="150" poster="https://cdn.ethic.es/wp-content/uploads/2023/03/imagen.jpg" autoplay src="https://youtu.be/dQw4w9WgXcQ?si=T63wB83_QR8QhBHq"></video>-->
+    <video
+      src="https://upload.wikimedia.org/wikipedia/commons/6/63/Adelaide_River_NT_Australia.ogv"
+      controls
+      loop
+      autoplay
+      width="300"
+      height="150"
+    ></video>
+    <canvas
+      id="myCanvas"
+      width="300"
+      height="150"
+      style="border: 1px solid #d3d3d3"
+    >
+      Your browser does not support the HTML canvas tag.</canvas
+    >
+
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+      ctx.strokeStyle = "red";
+      ctx.stroke();
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.moveTo(65, 0);
+      ctx.lineTo(135, 85);
+      ctx.strokeStyle = "purple";
+      ctx.stroke();
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.moveTo(0, 50);
+      ctx.lineTo(200, 50);
+      ctx.strokeStyle = "green";
+      ctx.stroke();
+    </script>
+  </body>
+</html>

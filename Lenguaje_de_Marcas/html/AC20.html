@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend><b>Datos de acceso</b></legend>
+        <p><b>Email:</b><input type="email" required /></p>
+        <p>
+          <b>Password:</b
+          ><input type="password" name="contrseña" id="00" required />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend><b>Datos personales</b></legend>
+        <!--Aqui se podrian poner maxlenght-->
+        <p><b>Imágen:</b> Sube una foto: <input type="file" /></p>
+        <p><b>Nombre:</b><input type="text" required /></p>
+        <p><b>Primer apellido:</b> <input type="text" required /></p>
+        <p><b>Segundo apellido:</b> <input type="text" required /></p>
+        <p>
+          <b>Sexo:</b> <input type="radio" name="sexo" id="01" />Hombre
+          <input type="radio" name="sexo" id="02" />Mujer
+          <input type="radio" name="sexo" id="03" />Prefiero no decirlo
+        </p>
+        <p><b>Fecha de nacimiento</b> <input type="date" required /></p>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Dirección</legend>
+            <!--Ordenado mejor-->
+            <p><b>Calle:</b><input type="text" required /></p>
+            <p>
+              <b>Número:</b>
+              <input
+                type="number"
+                name="número"
+                id="04"
+                max="99"
+                min="0"
+                required
+              />
+            </p>
+            <p><b>Ciudad:</b><input type="text" required /></p>
+            <p>
+              <b>País:</b
+              ><select name="país" id="05" required>
+                <option value="">España</option>
+                <option value="">Francia</option>
+                <option value="">Portugal</option>
+              </select>
+            </p>
+            <p>
+              <b>CP:</b
+              ><input type="text" maxlength="5" pattern="[0-9]{5}" required />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Personaliza tu web</legend>
+            <p>
+              <b>Tamaño de la fuente:</b> 0<input
+                type="range"
+                name="tamaño"
+                id="06"
+                max="3"
+                min="0"
+              />3
+            </p>
+            <p><b>Elige el color de fondo:</b><input type="color" /></p>
+          </fieldset>
+          <fieldset>
+            <legend>Términos y condiciones</legend>
+            <p>
+              <input type="checkbox" name="acepta" id="07" required />Confirma
+              que ha <u><b>leído y comprende</b></u> nuestros términos y
+              condiciones
+            </p>
+          </fieldset>
+          <input type="submit" value="Registrate" /><input
+            type="reset"
+            value="Limpia"
+          />
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcadores [
+    <!ELEMENT marcadores (pagina+)>
+    <!ELEMENT pagina (nombre, descripcion, url)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+<marcadores>
+    <pagina>
+        <nombre>OpenAI</nombre>
+        <descripcion>Empresa de investigación en inteligencia artificial.</descripcion>
+        <url>https://openai.com</url>
+    </pagina>
+    <pagina>
+        <nombre>Medium</nombre>
+        <descripcion>Plataforma de publicación de artículos y contenido.</descripcion>
+        <url>https://medium.com</url>
+    </pagina>
+    <pagina>
+        <nombre>Stack Overflow</nombre>
+        <descripcion>Comunidad de programadores para preguntas y respuestas.</descripcion>
+        <url>https://stackoverflow.com</url>
+    </pagina>
+</marcadores>

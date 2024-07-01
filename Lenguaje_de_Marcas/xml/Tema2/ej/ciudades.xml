@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+	<ciudad>
+		<nombre>Khabarowsk</nombre>
+		<pais continente="Asia">Rusia</pais>
+	</ciudad>
+	<ciudad>
+		<nombre>Lusaka</nombre>
+		<pais continente="Africa">Zambia</pais>
+	</ciudad>
+	<ciudad>
+		<nombre>Amsterdam</nombre>
+		<pais continente="Europa">Holanda</pais>
+	</ciudad>
+</ciudades>

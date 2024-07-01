@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <form action="index.html">
+      <fieldset>
+        <legend>Datos necesarios para ponerse en contacto</legend>
+        <p><b>Nombre:</b><input type="text" max="60" required /></p>
+        <p><b>Apellidos:</b><input type="text" max="120" required /></p>
+        <p><b>Email:</b><input type="email" name="email" required /></p>
+        <p>
+          <b>Color favorito:</b><input type="color" name="color" required />
+        </p>
+        <p><b>Imagen para verificación:</b><input type="file" required /></p>
+      </fieldset>
+      <fieldset>
+        <legend>Datos también necesarios</legend>
+        <p>
+          <b>Número de tarjeta:</b
+          ><input type="text" maxlength="16" pattern="[0-9]" required minlength="16" />
+        </p>
+        <p><b>Fecha de expiración:</b><input type="month" required /></p>
+        <p>
+          <b>CVV:</b
+          ><input type="text" maxlength="3" pattern="[0-9]" required minlength="3" />
+        </p>
+        <p><b>Nombre del titular:</b> <input type="text" required pattern="[^0-9]" /></p>
+      </fieldset>
+      <fieldset>
+        <legend>Comentarios</legend>
+        <textarea name="comentario" id="2" cols="30" rows="10"></textarea>
+      </fieldset>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

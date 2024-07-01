@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE series [
+    <!ELEMENT series (serie+)>
+    <!ELEMENT serie (titulo, num_temporadas, anyo_emision)>
+    <!ELEMENT titulo (#PCDATA) #REQUIRED>
+    <!ELEMENT anyo_emision (#PCDATA) #REQUIRED>
+    <!ATTLIST serie num_temporadas CDATA #REQUIRED>
+]>
+<series>
+    <serie num_temporadas="8">
+        <titulo>House</titulo>
+        <anyo_emision>2004</anyo_emision>
+    </serie>
+    <serie num_temporadas="9">
+        <titulo>The Office</titulo>
+        <anyo_emision>2005</anyo_emision>
+    </serie>
+    <serie num_temporadas="6">
+        <titulo>Los Soprano</titulo>
+        <anyo_emision>1999</anyo_emision>
+    </serie>
+    <serie num_temporadas="35">
+        <titulo>Los Simpson</titulo>
+        <anyo_emision>1989</anyo_emision>
+    </serie>
+    <serie num_temporadas="6">
+        <titulo>Silicon Valley</titulo>
+        <anyo_emision>2014</anyo_emision>
+    </serie>
+
+</series>

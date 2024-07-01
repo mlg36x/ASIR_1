@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<hechos_historicos>
+
+	<fecha descripcion="IBM_da_a_conocer_el_PC" formato="dd/mm/yyyy">12/8/1981</fecha>
+
+	<fecha descripcion="Se_funda_Google" formato="dd/mm/yyyy">4/9/1998</fecha>
+
+	<fecha descripcion="Se_funda_Facebook" formato="dd/mm/yyyy">4/2/2004</fecha>
+
+</hechos_historicos>

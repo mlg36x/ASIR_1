@@ -1,0 +1,35 @@
+-Interfaces FA de 0/1 a 0/8 aceptan como máximo tres MAC
+	-Switch(config)#interface range fastEthernet 0/1-8
+	Switch(config-if-range)#switchport mode access
+	Switch(config-if-range)#switchport port-security violation protect
+	Switch(config-if-range)#switchport port-security maximum 3
+	Switch(config-if-range)#switchport port security
+	(He dejado sin especificar las MAC, para completarlo es igual que las siguientes)
+
+- Interfaz FA 0/10 sólo acepta la MAC del portátil 4 (0060.70C5.E63E)
+	-Switch(config-if)#switchport mode access
+	Switch(config-if)#switchport port-security violation protect
+	Switch(config-if)#switchport port-security maximum 1
+	Switch(config-if)#switchport port-security mac-address <mac_dir>
+	Switch(config-if)#switchport port-security
+	Switch(config-if)#shutdown
+	Switch(config-if)#no shutdown
+
+- Interfaz FA 0/9 sólo acepta la MAC del portátil 3 (0040.0B63.5E11) y PC5 (0030.F21C.A576)
+	-Switch(config-if)#switchport mode access
+	Switch(config-if)#switchport port-security violation protect
+	Switch(config-if)#switchport port-security maximum 2
+	Switch(config-if)#switchport port-security mac-address <mac_dir> x2
+	Switch(config-if)#switchport port-security
+	Switch(config-if)#shutdown
+	Switch(config-if)#no shutdown
+
+- Interfaz FA 0/11 sólo no acepta la MAC del PC5 (0030.F21C.A576)
+	-Switch(config)vlan <numero que no sea 1, 1002, 1003, 1004, 1005 ejemplo:66>
+	Switch(config-vlan)#name <nombre para identificar la VLAN del PC>
+	Switch(config)#interface fastethernet 0/11
+	Switch(config-if)#switchport mode trunk
+	Switch(config-if)#switchport trunk allowed vlan except <numero de VLAN(66)>
+	Switch(config)#mac address-table static 0030.F21C.A576 vlan <numero de vlan (66)> interface FastEthernet 0/11
+
+

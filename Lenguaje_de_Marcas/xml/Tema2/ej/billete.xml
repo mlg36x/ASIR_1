@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE billete [
+    <!ELEMENT billete (nombre, origen, destino, fecha, hora)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+]>
+<billete>
+    <nombre>nombre de pasajero</nombre>
+    <origen>aeropuerto de origen</origen>
+    <destino>aeropuerto de destino</destino>
+    <fecha>fecha del vuelo</fecha>
+    <hora>hora del vuelo</hora>
+</billete>

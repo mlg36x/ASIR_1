@@ -1,0 +1,7 @@
+
+
+ALTER TABLE TEmpleado
+	DROP dNacimiento
+	ADD cEmail VARCHAR(256) 
+--CHECK %@%.%
+	ALTER cDireccion VARCHAR(255);

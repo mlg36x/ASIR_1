@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CV.xsl" type="text/xsl"?>
+<datos>
+    <nombre>Miguel de la Cruz</nombre>
+    <telefono>644260325</telefono>
+    <formacion titulo="Bachillerato" centro="IES Butarque" anyofin="2023"></formacion>
+    <experiencia puesto="NULL" empresa="NULL" anyocom="NULL" anyofin="NULL"></experiencia>
+</datos>

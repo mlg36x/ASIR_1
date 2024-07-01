@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table style="border: 1px black solid; background-color: #e3e8e9">
+      <caption>
+        Reserva vehículos
+      </caption>
+      <tr>
+        <td>Nombre y apellidos</td>
+        <td><input type="text" required /></td>
+      </tr>
+      <tr>
+        <td>email</td>
+        <td><input type="email" name="correo" id="01" required /></td>
+      </tr>
+      <tr>
+        <td>Vehículos</td>
+        <td>
+          <select name="vehículos" id="02" required>
+            <option value="">Opel Corsa</option>
+            <option value="">Ford Mustang</option>
+            <option value="">Vespa</option>
+            <option value="">Shelby Cobra</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Fumador</td>
+        <td><input type="checkbox" name="fumador" id="03" required /></td>
+      </tr>
+      <tr>
+        <td>Depósito lleno</td>
+        <td><input type="checkbox" name="deposito" id="04" required /></td>
+      </tr>
+      <tr>
+        <td>Automático</td>
+        <td><input type="checkbox" name="automatico" id="05" required /></td>
+      </tr>
+      <tr>
+        <td>Comentario</td>
+        <!--td><input type="text" /></td-->
+        <td><textarea name="" id="" cols="30" rows="6"></textarea></td>
+      </tr>
+    </table>
+    <input type="submit" value="Reservar" />
+  </body>
+</html>

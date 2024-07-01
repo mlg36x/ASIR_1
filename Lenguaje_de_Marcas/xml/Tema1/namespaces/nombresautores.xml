@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE nombresautores>
+<nombresautores>
+
+	<autor libro="Cien años de soledad">
+		Gabriel García Márquez
+	</autor>
+
+	<autor libro="Breve historia del tiempo">
+		Stephen Hawking
+	</autor>
+
+	<autor libro="1984">
+		George Orwell
+	</autor>
+
+	<autor libro="El Gran Gatsby">
+		F. Scott Fitzgerald
+	</autor>
+
+	<autor libro="Matar a un ruiseñor">
+		Harper Lee
+	</autor>
+
+</nombresautores>

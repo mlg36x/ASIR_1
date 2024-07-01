@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE libros>
+<autores xmlns:nombresautores="http://127.0.0.1:5500/xml/namespaces/nombresautores.xml">
+
+	<libro>
+		<titulo>Cien años de soledad</titulo>
+		<nombresautores:autor>Gabriel García Márquez</nombresautores:autor>
+		<editorial>Alfaguara</editorial>
+		<categoria>Novela</categoria>
+		<isbn>9788420471839</isbn>
+		<cod_libro>2030</cod_libro>
+	</libro>
+
+	<libro>
+		<titulo>Breve historia del tiempo</titulo>
+		<nombresautores:autor>Stephen Hawking</nombresautores:autor>
+		<editorial>Critica</editorial>
+		<categoria>Divulgación científica</categoria>
+		<isbn>9786079377373</isbn>
+		<cod_libro>3354</cod_libro>
+	</libro>
+
+	<libro>
+		<titulo>1984</titulo>
+		<nombresautores:autor>Gearge Orwell</nombresautores:autor>
+		<editorial>Debolsillo</editorial>
+		<categoria>Ciencia ficción/Novela distópica</categoria>
+		<isbn>9788499890944</isbn>
+		<cod_libro>2341</cod_libro>
+	</libro>
+
+	<libro>
+		<titulo>El Gran Gatsby</titulo>
+		<nombresautores:autor>F. Scott Fitzgerald</nombresautores:autor>
+		<editorial>Debolsillo</editorial>
+		<categoria>Novela clásica</categoria>
+		<isbn>9781941999585</isbn>
+		<cod_libro></cod_libro>
+	</libro>
+
+	<libro>
+		<titulo>Matar a un ruiseñor</titulo>
+		<nombresautores:autor>Harper Lee</nombresautores:autor>
+		<editorial>HarperCollins Español</editorial>
+		<categoria>Novela contemporánea</categoria>
+		<isbn>9780718076375</isbn>
+		<cod_libro>0123</cod_libro>
+	</libro>
+</autores>

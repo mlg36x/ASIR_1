@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo-componentes.css" type="text/css"?>
+<componentes>
+    <componente>
+        <nombre>Sony Playstation 5 slim</nombre>
+        <precio>549€</precio>
+    </componente>
+    <componente>
+        <nombre>PCGaming Ready i5 16G RAM</nombre>
+        <precio>469€</precio>
+    </componente>
+    <componente>
+        <nombre>Tarjeta gráfica GEForce RTX 4060</nombre>
+        <precio>319,89€</precio>
+    </componente>
+</componentes>

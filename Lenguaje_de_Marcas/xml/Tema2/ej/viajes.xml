@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viajes>
+    <viaje>
+        <cliente>
+            <nombre>Isabel</nombre>
+            <apellidos>Solana Lumbreras</apellidos>
+        </cliente>
+        <fx_ini>01-07-2024</fx_ini>
+        <fx_fin>31-07-2024</fx_fin>
+        <origen>
+            Madrid
+        </origen>
+        <destino>
+            <ciudad>París</ciudad>
+            <hotel>Hilton París</hotel>
+            <noches>10</noches>
+        </destino>
+    </viaje>
+    <viaje>
+        <cliente>
+            <nombre>Isabel</nombre>
+            <apellidos>Solana Lumbreras</apellidos>
+        </cliente>
+        <fx_ini>
+            31-07-2024
+        </fx_ini>
+        <fx_fin>07-08-2024</fx_fin>
+        <origen>
+            Madrid
+        </origen>
+        <destino>
+            <ciudad>Arlès</ciudad>
+            <hotel>Maison Andrè</hotel>
+            <noches>10</noches>
+        </destino>
+    </viaje>
+    <viaje>
+        <cliente>
+            <nombre>Isabel</nombre>
+            <apellidos>Solana Lumbreras</apellidos>
+        </cliente>
+        <fx_ini>
+            07-08-2024
+        </fx_ini>
+        <fx_fin>14-08-2024</fx_fin>
+        <origen>
+            Madrid
+        </origen>
+        <destino>
+            <ciudad>St. Tropez</ciudad>
+            <hotel>Villa Cosy</hotel>
+            <noches>10</noches>
+        </destino>
+    </viaje>
+</viajes>    

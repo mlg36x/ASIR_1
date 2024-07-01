@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta [
+    <!ELEMENT receta (nombre,ingredientes,elaboracion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT elaboracion (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+
+<!ATTLIST receta raciones CDATA #REQUIRED>
+<!ATTLIST receta dificultad (baja|media|alta) "media">
+<!ATTLIST ingrediente unidad #IMPLIED> 
+]>
+<receta raciones='2' dificultad='baja'>
+
+    <nombre>Ensalada de Tomate y Mozzarella</nombre>
+
+    <ingredientes>
+        <ingrediente>2 tomates</ingrediente>
+        <ingrediente>1 bola de mozzarella</ingrediente>
+        <ingrediente unidad='cucharada'>2 cucharadas de aceite de oliva</ingrediente>
+        <ingrediente unidad='cucharada'>1 cucharada de vinagre balsámico</ingrediente>
+        <ingrediente unidad='pizca'>Sal y pimienta al gusto</ingrediente>
+        <ingrediente unidad='hojas'>Albahaca fresca (Opcional)</ingrediente>
+    </ingredientes>
+
+    <elaboracion>Cortar los tomates y la mozzarella en rodajas.
+        Alternar las rodajas de tomate y mozzarella en un plato.
+        En un tazón pequeño, mezclar el aceite de oliva, el vinagre balsámico, la sal y la pimienta.
+        Rociar la mezcla de aliño sobre la ensalada.
+        Opcionalmente, decorar con hojas de albahaca fresca.
+    </elaboracion>
+
+</receta>

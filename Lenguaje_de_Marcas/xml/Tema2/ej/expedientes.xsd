@@ -1,0 +1,57 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="expedientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="expediente">
+                    <xs:complexType>
+                        <xs:all> 
+                            <xs:element name="titulacion">
+                                <xs:simpleType>
+                                    <xs:restriction>
+                                        <xs:enumeration value="DAW"></xs:enumeration>
+                                        <xs:enumeration value="ASIR"></xs:enumeration>
+                                        <xs:enumeration value="DAM"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="estudiante" type="xs:string">
+                            </xs:element>
+                            <xs:element name="modulos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modulo">
+                                            <xs:complexType>
+                                                <xs:attribute name="nombre" type="xs:string" use="required">
+                                                    <xs:simpleType>
+                                                        <xs:restriction>
+                                                            <xs:enumeration value="Bases de Datos"></xs:enumeration>
+                                                            <xs:enumeration value="LMSGI"></xs:enumeration>
+                                                            <xs:enumeration value="Despliegue de Aplicaciones Web"></xs:enumeration>
+                                                            <xs:enumeration value="Programacion"></xs:enumeration>
+                                                            <xs:enumeration value="Desarrollo Web en entorno cliente"></xs:enumeration>
+                                                            <xs:enumeration value="Desarrollo Web en entorno servidor"></xs:enumeration>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                                <xs:attribute name="aprobado" type="xs:boolean" use="required"></xs:attribute>
+                                                <xs:attribute name="curso" use="required">
+                                                    <xs:simpleType>
+                                                        <xs:restriction>
+                                                            <xs:enumeration value="Primero"></xs:enumeration>
+                                                            <xs:enumeration value="Segundo"></xs:enumeration>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

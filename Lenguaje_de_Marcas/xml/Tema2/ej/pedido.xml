@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pedido.css" type="text/css"?>
+<pedido>
+    <cliente> Juan Sánchez</cliente>
+    <Dirección> Calle Falsa 123</Dirección>
+    <productos>
+        <producto cantidad='1'>
+            <nombre>Hamburguesa con queso</nombre>
+            <precio>7,50€</precio>
+        </producto>
+        <producto cantidad='2'>
+            <nombre>Patatas fritas pequeñas</nombre>
+            <precio>2€</precio>
+        </producto>
+    </productos>
+</pedido>

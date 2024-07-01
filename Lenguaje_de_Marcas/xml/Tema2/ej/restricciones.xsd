@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+<xs:element name="restriccionminMax"> 
+
+    <!-- ejemplo de restriccion minimo y maximo p.e. para <diaSemana>7</diaSemana> -->
+    <xs:simpleType> <!-- elemento simple que no contiene otros elementos -->
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="7"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="restriccionEnum">
+<!-- ejemplo de restriccion de enumeración p.e. para <diaSemana>viernes</diaSemana> -->
+<xs:simpleType> <!-- elemento simple que no contiene otros elementos -->
+<xs:restriction base="xs:string">
+    <xs:enumeration value="lunes"/>
+    <xs:enumeration value="martes"/>
+    <xs:enumeration value="miercoles"/>
+    <xs:enumeration value="jueves"/>
+    <xs:enumeration value="viernes"/>
+    <xs:enumeration value="sabado"/>
+    <xs:enumeration value="domingo"/>
+</xs:restriction>
+</xs:element>
+
+<xs:element name=clave>
+<xs:simpleType>
+    <xs:restriction base="xs:string"
+       <xs:pattern value="[a-zA-Z] {4} [0-9]{2}"/> <!-- <clave>abCD76</clave>-->
+    </xs:restriction>
+</xs:simpleType>
+</xs:element>
+</xs:schema>

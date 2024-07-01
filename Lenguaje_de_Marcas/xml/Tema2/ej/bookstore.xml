@@ -1,0 +1,11 @@
+<bookstore>
+    <book>
+    <title lang="eng">Harry Potter</title>
+    <price>29.99</price>
+    <fechaPublicacion año="1973"/>
+    </book>
+    <book>
+    <title lang="eng">Learning XML</title>
+    <price>39.95</price>
+    </book>
+    </bookstore>

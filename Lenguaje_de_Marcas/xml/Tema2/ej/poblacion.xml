@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fichas[
+ <!ENTITY poblacion "Arroyo de la Luz, Cáceres">
+ ]>
+ <fichas>
+    <ficha>
+        <empresa nombre="Alfarería Pajares"></empresa>
+        <direccion>&poblacion;</direccion>
+    </ficha>
+    <ficha>
+        <empresa nombre="Electrica Salomón"></empresa>
+        <direccion>&poblacion;</direccion>
+    </ficha>
+ </fichas>
+ 

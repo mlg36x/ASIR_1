@@ -1,0 +1,17 @@
+MONODROGA(ID_mon[PK])
+MEDICAMENTO(ID_med[PK], Cód_lab[FK], precio, cantidad)
+LABORATORIO(Cód_lab[PK])
+ACCIÓN_TERAPÉUTICA(ID_AT[PK])
+PRESENTACIÓN(ID_pre[PK])
+FARMACIA(Dir_farma[PK])
+CIUDAD(Cód_ciudad[PK])
+PERSONAL(DNI[PK])
+FARMACÉUTICO(DNI[PK], ciudad[FK])
+PROPIO(DNI[PK])
+
+
+#Al ser interrelación todas las PK son FK también
+COMPOSICIÓN(ID_med[PK], ID_mon[PK])
+FUNCIÓN(ID_med[PK],ID_AT[PK])
+PLANTILLA(Dir_farma[PK], DNI_personal[PK])
+STOCK(ID_PRE[PK], ID_med[PK], Dir_farma[PK], Cantidad)

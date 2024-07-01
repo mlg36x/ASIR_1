@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Párrafo que este dentro de article*/
+      article > p {
+        text-align: center;
+      }
+      /*Párrafo hermano adyacente de un h2*/
+      h2 ~ p {
+        text-align: center;
+      }
+      /*Párrafo descendiente de un div*/
+      div p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h2>Sistema operativo</h2>
+        <p>El Sistema operativo es el componente...</p>
+      </div>
+      <article><p>Un buen antivirus protege al ordenador...</p></article>
+    </div>
+  </body>
+</html>

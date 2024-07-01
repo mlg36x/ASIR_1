@@ -1,0 +1,24 @@
+
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport port-security violation protect
+Switch(config-if)#switchport port-security maximum 1
+Switch(config-if)#switchport port-security mac-address <mac_dir>
+Switch(config-if)#switchport port-security
+Switch(config-if)#shutdown
+Switch(config-if)#no shutdown
+--
+Switch#show port-security interface fastEthernet 0/1
+Port Security              : Enabled
+Port Status                : Secure-up
+Violation Mode             : Protect
+Aging Time                 : 0 mins
+Aging Type                 : Absolute
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 1
+Total MAC Addresses        : 1
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 0
+Last Source Address:Vlan   : 0060.4790.75C1:1
+Security Violation Count   : 0
+
+

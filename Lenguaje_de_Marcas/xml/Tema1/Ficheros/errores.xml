@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archivo>
+<ciudad>Pamplona</ciudad>
+<dia>18</dia>
+<mes>6</mes>
+<ciudad>Pamplona</ciudad>
+<dos_colores>Rojo y Naranja</dos_colores>
+<aficiones>Cine, Bailar, Nadar</aficiones>
+<persona><nombre>Elsa</nombre></persona>
+<color_favorito>azul</color_favorito>
+</archivo>

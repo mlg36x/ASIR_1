@@ -1,0 +1,4 @@
+-No esta en 2FN, ya que en la tabla hay atributos que no dependen de las dos claves primarias
+
+Cód.factura-Fecha_factura-Importe_factura
+CIF_cliente-Razón_social

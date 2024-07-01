@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNameSpaceSchemaLocation="factura.xsd">
+    <numero>1</numero>
+    <cliente>
+        <nombre>Centro Luis Vives S.A.</nombre>
+        <CIF>A81237655</CIF>
+    </cliente>
+    <concepto>
+        <descripcion>sillas</descripcion>
+        <importe>2500</importe>
+    </concepto>
+    <concepto>
+        <descripcion>arreglos pizarra</descripcion>
+        <importe>400.30</importe>
+    </concepto>
+    <impuesto nombre="IVA">pendiente</impuesto>
+    <totalFactura euros="2900.30"/>
+</factura>
